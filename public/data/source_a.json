@@ -1,0 +1,64 @@
+{
+    "provider": "EstateHub",
+    "exported_at": "2026-06-10T14:30:00Z",
+    "properties": [
+        {
+            "property_id": "EH-1001",
+            "location": {
+                "street": "422 Oak Avenue",
+                "city": "Manchester",
+                "postcode": "M1 2AB"
+            },
+            "listing_price": 285000,
+            "bedrooms": 3
+        },
+        {
+            "property_id": "EH-1002",
+            "location": {
+                "street": "8 Willow Lane",
+                "city": "Leeds",
+                "postcode": "LS1 4TT"
+            },
+            "listing_price": 195500,
+            "bedrooms": 2
+        },
+        {
+            "property_id": "EH-1003",
+            "location": {
+                "street": "15 Kings Road",
+                "city": "Birmingham",
+                "postcode": "B15 3QR"
+            },
+            "listing_price": 412000,
+            "bedrooms": 4
+        },
+        {
+            "property_id": "EH-1004",
+            "location": {
+                "street": "3 Harbour View",
+                "city": "Liverpool",
+                "postcode": "L2 8HG"
+            },
+            "listing_price": 167250,
+            "bedrooms": 1
+        },
+        {
+            "property_id": "EH-1005",
+            "location": {
+                "street": "91 Meadow Street",
+                "city": "Sheffield",
+                "postcode": "S1 2GH"
+            },
+            "listing_price": 238900,
+            "bedrooms": 3
+        },
+        {
+            "property_id": "",
+            "location": {
+                "street": "Invalid Record",
+                "city": "Nowhere"
+            },
+            "listing_price": "not-a-number"
+        }
+    ]
+}

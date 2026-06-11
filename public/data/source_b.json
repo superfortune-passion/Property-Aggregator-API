@@ -1,0 +1,40 @@
+{
+    "agency": "PrimeHomes",
+    "generated": "2026-06-11T09:15:22Z",
+    "listings": [
+        {
+            "id": "PH-501",
+            "full_address": "17 Riverside Drive, Bristol BS1 4XY",
+            "price_usd": 320000,
+            "status": "available"
+        },
+        {
+            "id": "PH-502",
+            "full_address": "204 High Street, Edinburgh EH1 1YZ",
+            "price_usd": 445000,
+            "status": "available"
+        },
+        {
+            "id": "PH-503",
+            "full_address": "56 Garden Close, Cardiff CF10 1AB",
+            "price_usd": 278500,
+            "status": "under_offer"
+        },
+        {
+            "id": "PH-504",
+            "full_address": "12 Station Road, Newcastle NE1 5PQ",
+            "price_usd": 189000,
+            "status": "available"
+        },
+        {
+            "id": "PH-505",
+            "full_address": "88 Church Lane, Oxford OX1 3DE",
+            "price_usd": 525000,
+            "status": "available"
+        },
+        {
+            "full_address": "Missing ID Property, London",
+            "price_usd": 350000
+        }
+    ]
+}

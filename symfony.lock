@@ -1,0 +1,12 @@
+{
+    "symfony/flex": {
+        "version": "2.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.4",
+            "ref": "0000000000000000000000000000000000000000"
+        },
+        "files": []
+    }
+}

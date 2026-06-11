@@ -1,0 +1,19 @@
+parameters:
+    app.data_dir: '%kernel.project_dir%/public/data'
+    app.cache_ttl: '%env(int:PROPERTIES_CACHE_TTL)%'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/Kernel.php'
+
+    App\Service\PropertyAggregatorService:
+        arguments:
+            $cache: '@cache.app'
+            $dataDirectory: '%app.data_dir%'
+            $cacheTtl: '%app.cache_ttl%'
